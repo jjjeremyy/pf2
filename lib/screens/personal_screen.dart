@@ -9,6 +9,8 @@ class PersonalScreen extends StatefulWidget {
   State<PersonalScreen> createState() => _PersonalScreenState();
 }
 
+// He empleat StateFulWidget perque els valors de la pantalla s'han d'actualitzar
+
 class _PersonalScreenState extends State<PersonalScreen> {
   @override
   late String _firstName; 
